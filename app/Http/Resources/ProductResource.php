@@ -19,6 +19,7 @@ class ProductResource extends JsonResource
             'name'=> $this->name,
             'description'=> $this->description,
             'price'=> $this->price,
+            'user' => UserResource::make($this->user)
         ];
     }
 }

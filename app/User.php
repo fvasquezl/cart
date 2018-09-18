@@ -28,6 +28,8 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
+    protected $appends=['avatar'];
+
     public function products()
     {
         return $this->hasMany(Product::class);
@@ -39,4 +41,10 @@ class User extends Authenticatable
         $this->products()->save($post);
         return $post;
     }
+
+    public function avatar()
+    {
+        return 'https://aprendible.com/images/default-avatar.jpg';
+    }
+
 }

@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5fc459d-e9da-4240-9ea9-32b823cd1157" name="Default Changelist" comment="" />
+    <list default="true" id="b5fc459d-e9da-4240-9ea9-32b823cd1157" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/Feature/CreateRegisterTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cart.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cart.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Resources/ProductResource.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Resources/ProductResource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/RegisterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/Http/Resources/ProductResourceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Http/Resources/ProductResourceTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,38 +40,55 @@
     <session id="1366008769">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="env" value="1" />
-          <entry key="php" value="51" />
+          <entry key="css" value="3" />
+          <entry key="env" value="2" />
+          <entry key="js" value="1" />
+          <entry key="json" value="2" />
+          <entry key="local" value="1" />
+          <entry key="php" value="74" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key=".env file" value="1" />
-          <entry key="Blade" value="2" />
-          <entry key="PHP" value="49" />
+          <entry key=".env file" value="2" />
+          <entry key="Blade" value="8" />
+          <entry key="CSS" value="3" />
+          <entry key="JSON" value="2" />
+          <entry key="JavaScript" value="1" />
+          <entry key="PHP" value="66" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="env" value="9" />
-          <entry key="php" value="6199" />
+          <entry key="css" value="1" />
+          <entry key="env" value="13" />
+          <entry key="js" value="75" />
+          <entry key="local" value="11" />
+          <entry key="php" value="7896" />
           <entry key="xml" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key=".env file" value="9" />
-          <entry key="PHP" value="6199" />
+          <entry key=".env file" value="13" />
+          <entry key="Blade" value="583" />
+          <entry key="CSS" value="1" />
+          <entry key="JavaScript" value="75" />
+          <entry key="PHP" value="7313" />
+          <entry key="PLAIN_TEXT" value="11" />
           <entry key="XML" value="43" />
         </counts>
       </usages-collector>
@@ -60,43 +102,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Feature/CreateProductsTest.php">
+        <entry file="file://$PROJECT_DIR$/tests/Browser/UserCanRegisterTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
-              <folding>
-                <element signature="e#33#52#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="159">
+              <caret line="18" column="37" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Resources/ProductResource.php">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <state relative-caret-position="374">
+              <caret line="56" column="18" selection-start-line="52" selection-start-column="12" selection-end-line="56" selection-end-column="23" />
+              <folding>
+                <element signature="e#45#65#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/Unit/Http/Resources/ProductResourceTest.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
-              <folding>
-                <element signature="e#45#84#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="196">
+              <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>required|string|max:255</find>
+      <find>uni</find>
+      <find>min</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -109,10 +157,7 @@
         <option value="$PROJECT_DIR$/phpunit.xml" />
         <option value="$PROJECT_DIR$/database/migrations/2018_09_12_233544_create_roles_table.php" />
         <option value="$PROJECT_DIR$/tests/Feature/UserRoleTest.php" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/database/factories/UserFactory.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/RegisterTest.php" />
         <option value="$PROJECT_DIR$/tests/Feature/AdminAttributesTest.php" />
         <option value="$PROJECT_DIR$/tests/TestHelper.php" />
         <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
@@ -120,7 +165,6 @@
         <option value="$PROJECT_DIR$/app/Http/Middleware/Role.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Product.php" />
-        <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_09_14_183432_create_products_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/productStoreRequest.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php" />
@@ -128,8 +172,23 @@
         <option value="$PROJECT_DIR$/app/Models/Product.php" />
         <option value="$PROJECT_DIR$/tests/Unit/Models/ProductTest.php" />
         <option value="$PROJECT_DIR$/tests/Feature/CreateProductsTest.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/RegisterTest.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/CreateRegisterTest.php" />
         <option value="$PROJECT_DIR$/app/Http/Resources/ProductResource.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/app/Http/Resources/UserResource.php" />
         <option value="$PROJECT_DIR$/tests/Unit/Http/Resources/ProductResourceTest.php" />
+        <option value="$PROJECT_DIR$/webpack.mix.js" />
+        <option value="$PROJECT_DIR$/public/css/login.css" />
+        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/tests/Browser/UserCanRegisterTest.php" />
+        <option value="$PROJECT_DIR$/.env.dusk.local" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
       </list>
     </option>
   </component>
@@ -140,6 +199,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -220,6 +282,8 @@
       <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
       <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
       <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/facebook/webdriver" />
+      <path value="$PROJECT_DIR$/vendor/laravel/dusk" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -234,6 +298,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,77 +315,53 @@
               <item name="cart" type="b2602c69:ProjectViewProjectNode" />
               <item name="cart" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Providers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cart" type="b2602c69:ProjectViewProjectNode" />
               <item name="cart" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Middleware" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cart" type="b2602c69:ProjectViewProjectNode" />
               <item name="cart" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Requests" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cart" type="b2602c69:ProjectViewProjectNode" />
               <item name="cart" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cart" type="b2602c69:ProjectViewProjectNode" />
               <item name="cart" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="Unit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="Unit" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="Unit" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="auto-a&#9;ACTION&#9;code.align&#10;plug&#9;ACTION&#9;WelcomeScreen.Plugins" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/phpunit.xml" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tests/Unit/Http" />
       <recent name="$PROJECT_DIR$/app/Models" />
@@ -343,16 +384,16 @@
       <TestRunner class="Tests\Feature\CreateProductsTest" file="$PROJECT_DIR$/tests/Feature/CreateProductsTest.php" scope="Class" />
       <method v="2" />
     </configuration>
-    <configuration name="CreateProductsTest.admin_user_can_create_products" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\CreateProductsTest" file="$PROJECT_DIR$/tests/Feature/CreateProductsTest.php" method="admin_user_can_create_products" scope="Method" />
+    <configuration name="CreateRegisterTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\CreateRegisterTest" file="$PROJECT_DIR$/tests/Feature/CreateRegisterTest.php" scope="Class" />
       <method v="2" />
     </configuration>
-    <configuration name="CreateProductsTest.the_product_requires_a_price" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\CreateProductsTest" file="$PROJECT_DIR$/tests/Feature/CreateProductsTest.php" method="the_product_requires_a_price" scope="Method" />
+    <configuration name="CreateRegisterTest.the_first_name_and_last_name_must_contain_only_letters" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\CreateRegisterTest" file="$PROJECT_DIR$/tests/Feature/CreateRegisterTest.php" method="the_first_name_and_last_name_must_contain_only_letters" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="ProductResourceTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\Http\Resources\ProductResourceTest" file="$PROJECT_DIR$/tests/Unit/Http/Resources/ProductResourceTest.php" scope="Class" />
+    <configuration name="CreateRegisterTest.the_user_name_first_and_last_name_have_a_minimum_of_3_characters" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\CreateRegisterTest" file="$PROJECT_DIR$/tests/Feature/CreateRegisterTest.php" method="the_user_name_first_and_last_name_have_a_minimum_of_3_characters" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="ProductResourceTest.a_product_resource_must_have_the_necessary_fields" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -360,19 +401,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="PHPUnit.CreateProductsTest.the_product_requires_a_price" />
-      <item itemvalue="PHPUnit.ProductResourceTest" />
-      <item itemvalue="PHPUnit.ProductResourceTest.a_product_resource_must_have_the_necessary_fields" />
+      <item itemvalue="PHPUnit.CreateRegisterTest.the_user_name_first_and_last_name_have_a_minimum_of_3_characters" />
+      <item itemvalue="PHPUnit.CreateRegisterTest.the_first_name_and_last_name_must_contain_only_letters" />
+      <item itemvalue="PHPUnit.CreateRegisterTest" />
       <item itemvalue="PHPUnit.CreateProductsTest" />
-      <item itemvalue="PHPUnit.CreateProductsTest.admin_user_can_create_products" />
+      <item itemvalue="PHPUnit.ProductResourceTest.a_product_resource_must_have_the_necessary_fields" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="PHPUnit.ProductResourceTest.a_product_resource_must_have_the_necessary_fields" />
-        <item itemvalue="PHPUnit.CreateProductsTest.admin_user_can_create_products" />
         <item itemvalue="PHPUnit.CreateProductsTest" />
-        <item itemvalue="PHPUnit.ProductResourceTest" />
-        <item itemvalue="PHPUnit.CreateProductsTest.the_product_requires_a_price" />
+        <item itemvalue="PHPUnit.CreateRegisterTest" />
+        <item itemvalue="PHPUnit.CreateRegisterTest.the_first_name_and_last_name_must_contain_only_letters" />
+        <item itemvalue="PHPUnit.CreateRegisterTest.the_user_name_first_and_last_name_have_a_minimum_of_3_characters" />
       </list>
     </recent_temporary>
   </component>
@@ -384,62 +425,65 @@
       <option name="presentableId" value="Default" />
       <updated>1536789608252</updated>
       <workItem from="1536789610527" duration="6412000" />
-      <workItem from="1536796044311" duration="27843000" />
+      <workItem from="1536796044311" duration="32901000" />
+      <workItem from="1537204518316" duration="295000" />
+      <workItem from="1537205748850" duration="12128000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CreateProductsTest_the_product_name_may_not_greater_than_60_characters - 2018.09.14 at 12h 58m 26s.xml">
-      <configuration name="CreateProductsTest.the_product_name_may_not_greater_than_60_characters" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="RegisterTest - 2018.09.17 at 11h 38m 12s.xml">
+      <configuration name="RegisterTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="CreateProductsTest_the_product_name_must_not_be_greater_than_60_or_less_than_5_characters - 2018.09.14 at 13h 05m 12s.xml">
-      <configuration name="CreateProductsTest.the_product_name_must_not_be_greater_than_60_or_less_than_5_characters" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="CreateProductsTest_the_product_name_must_be_string - 2018.09.14 at 13h 05m 50s.xml">
-      <configuration name="CreateProductsTest.the_product_name_must_be_string" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="CreateProductsTest_the_product_requires_a_price - 2018.09.14 at 13h 06m 34s.xml">
-      <configuration name="CreateProductsTest.the_product_requires_a_price" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ProductResourceTest - 2018.09.14 at 13h 12m 39s.xml">
-      <configuration name="ProductResourceTest" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ProductResourceTest_a_product_resource_must_have_the_necessary_fields - 2018.09.14 at 13h 13m 15s.xml">
-      <configuration name="ProductResourceTest.a_product_resource_must_have_the_necessary_fields" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="CreateProductsTest - 2018.09.14 at 13h 13m 58s.xml">
+    <history-entry file="CreateProductsTest - 2018.09.17 at 12h 04m 37s.xml">
       <configuration name="CreateProductsTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="CreateProductsTest_admin_user_can_create_products - 2018.09.14 at 13h 14m 21s.xml">
-      <configuration name="CreateProductsTest.admin_user_can_create_products" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ProductResourceTest_a_product_resource_must_have_the_necessary_fields - 2018.09.14 at 13h 14m 37s.xml">
+    <history-entry file="ProductResourceTest_a_product_resource_must_have_the_necessary_fields - 2018.09.17 at 12h 07m 15s.xml">
       <configuration name="ProductResourceTest.a_product_resource_must_have_the_necessary_fields" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="ProductResourceTest_a_product_resource_must_have_the_necessary_fields - 2018.09.14 at 13h 15m 24s.xml">
+    <history-entry file="ProductResourceTest_a_product_resource_must_have_the_necessary_fields - 2018.09.17 at 14h 56m 36s.xml">
+      <configuration name="ProductResourceTest.a_product_resource_must_have_the_necessary_fields" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ProductResourceTest_a_product_resource_must_have_the_necessary_fields - 2018.09.17 at 14h 57m 30s.xml">
+      <configuration name="ProductResourceTest.a_product_resource_must_have_the_necessary_fields" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ProductResourceTest_a_product_resource_must_have_the_necessary_fields - 2018.09.17 at 14h 59m 01s.xml">
+      <configuration name="ProductResourceTest.a_product_resource_must_have_the_necessary_fields" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ProductResourceTest_a_product_resource_must_have_the_necessary_fields - 2018.09.17 at 15h 02m 52s.xml">
+      <configuration name="ProductResourceTest.a_product_resource_must_have_the_necessary_fields" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ProductResourceTest_a_product_resource_must_have_the_necessary_fields - 2018.09.17 at 15h 02m 53s.xml">
+      <configuration name="ProductResourceTest.a_product_resource_must_have_the_necessary_fields" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ProductResourceTest_a_product_resource_must_have_the_necessary_fields - 2018.09.17 at 15h 06m 40s.xml">
+      <configuration name="ProductResourceTest.a_product_resource_must_have_the_necessary_fields" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ProductResourceTest_a_product_resource_must_have_the_necessary_fields - 2018.09.17 at 15h 08m 10s.xml">
       <configuration name="ProductResourceTest.a_product_resource_must_have_the_necessary_fields" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34255000" />
+    <option name="totallyTimeSpent" value="51736000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1987" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15439956" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15771998" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2854054" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28494042" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33044422" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -473,50 +517,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/RoleFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_09_12_233544_create_roles_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Role.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="55" column="40" lean-forward="true" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
-          <folding>
-            <element signature="e#45#65#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/AdminAttributesTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/RoleFactory.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_09_12_233544_create_roles_table.php" />
+    <entry file="file://$PROJECT_DIR$/app/Models/Role.php" />
+    <entry file="file://$PROJECT_DIR$/tests/Feature/AdminAttributesTest.php" />
     <entry file="file://$PROJECT_DIR$/tests/TestHelper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -524,9 +528,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/IsAdmin.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/IsAdmin.php" />
     <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -544,26 +546,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/RegisterTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1680">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/ExampleTest.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#24#47#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/ExampleTest.php" />
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -582,26 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding>
-            <element signature="e#7#20#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-          <folding>
-            <element signature="e#30#43#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_09_14_183432_create_products_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -628,46 +591,173 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
           <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="e#37#60#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="364">
           <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="e#46#88#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Resources/ProductResource.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/CreateProductsTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+        <state relative-caret-position="112">
+          <caret line="113" column="5" lean-forward="true" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_09_14_183432_create_products_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Resources/ProductResource.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="21" column="53" lean-forward="true" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/CreateRegisterTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding>
-            <element signature="e#33#52#0#PHP" expanded="true" />
+            <element signature="e#33#46#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Unit/Http/Resources/ProductResourceTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        <state relative-caret-position="952">
+          <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Resources/UserResource.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-247" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.mix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
           <folding>
-            <element signature="e#45#84#0#PHP" expanded="true" />
+            <element signature="e#33#71#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="31" column="11" selection-end-line="31" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="747">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.dusk.local">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-840" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Browser/UserCanRegisterTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="56" column="18" selection-start-line="52" selection-start-column="12" selection-end-line="56" selection-end-column="23" />
+          <folding>
+            <element signature="e#45#65#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
         </state>
       </provider>
     </entry>

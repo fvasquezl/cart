@@ -3,7 +3,9 @@
 namespace Tests\Unit\Http\Resources;
 
 use App\Http\Resources\ProductResource;
+use App\Http\Resources\UserResource;
 use App\Models\Product;
+use App\User;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
@@ -34,6 +36,9 @@ class ProductResourceTest extends TestCase
             $productResource['user']
         );
 
-        $this->assertTrue(true);
+        $this->assertInstanceOf(
+            User::class,
+            $productResource['user']->resource
+        );
     }
 }
