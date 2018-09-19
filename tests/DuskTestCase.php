@@ -2,6 +2,7 @@
 
 namespace Tests;
 
+use Laravel\Dusk\Browser;
 use Laravel\Dusk\TestCase as BaseTestCase;
 use Facebook\WebDriver\Chrome\ChromeOptions;
 use Facebook\WebDriver\Remote\RemoteWebDriver;
@@ -20,6 +21,17 @@ abstract class DuskTestCase extends BaseTestCase
     public static function prepare()
     {
         static::startChromeDriver();
+
+        Browser::macro('assertSeeErrors', function(array $fields)
+        {
+           foreach ($fields as $name =>$errors){
+               foreach ((array) $errors as $message){
+                   $this->assertSeeIn(
+                       "#{$name}.form-control.is-invalid",$message
+                   );
+               }
+           }
+        });
     }
 
     /**

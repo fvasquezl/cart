@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::view('/','welcome')->name('home');
 //admin Routes
 Route::post('admin/product/create','Admin\ProductController@store')
     ->name('admin.products.store')->middleware('auth','role:admin');
